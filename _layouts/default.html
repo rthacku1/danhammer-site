@@ -7,6 +7,7 @@
     <title>{{ page.title }}</title>
 
     <link rel="stylesheet" href="https://github.com/themes/minimal/stylesheets/styles.css">
+    <link rel="stylesheet" href="/css/style.css" type="text/css" />
     <style>
       header { zoom: 1.2; }
       header h1 { margin-bottom: 5px; }
@@ -59,9 +60,9 @@
         </h1>
 
         <p class="view">
-          <a href="./cv.pdf">
+          <a href="./about.html">
             About
-            <small> [CV] </small>
+            <small> an intro </small>
           </a>
         </p>
 
@@ -80,54 +81,40 @@
         </p>
 
         <p class="view">
+          <a href="./posts.html">
+            Posts
+            <small> that I wrote </small>
+          </a>
+        </p>
+
+        <p class="view">
           <a href="./life.html">
             Life
-            <small> canoes, cubes, and family </small>
+            <small> canoes, cubes </small>
           </a>
         </p>
         
-
-        {% if page.repository_url %}
-          <h3>Project Info</h3>
-          <ul>
-            {% if page.zip_url %}
-              <li><a href="{{ page.zip_url }}">Download <strong>ZIP File</strong></a></li>
-            {% endif %}
-            {% if page.tar_url %}
-              <li><a href="{{ page.tar_url }}">Download <strong>TAR Ball</strong></a></li>
-            {% endif %}
-            {% if page.gem_url %}
-              <li><a href="{{ page.gem_url }}">Download <strong>Rubygem</strong></a></li>
-            {% endif %}
-            {% if page.issue_url %}
-              <li><a href="{{ page.issue_url }}">Report<strong>An Issue</strong></a></li>
-            {% endif %}
-            {% if page.repository_url %}
-              <li><a href="{{ page.repository_url }}">Fork On <strong>GitHub</strong></a></li>
-            {% endif %}
-          </ul>
-        {% endif %}
-
-          <h3>Internets</h3>
+        <h3>Internets</h3>
         <p class="view">
           <a href="https://github.com/danhammer" target="tab">
             GitHub
             <small>@danhammer</small>
           </a>
-        </li>
+        </p>
+
         <p class="view">
           <a href="https://twitter.com/econohammer" target="tab">
             Twitter
             <small>@econohammer</smalll>
           </a>
-        </li>
+        </p>
 
       </header>
       <section id="main">
         {{ content }}
       </section>
+
       <footer>
-        <!-- <p>This is the site of Corey Donohoe</p> -->
         <p><small>Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
       </footer>
     </div>
