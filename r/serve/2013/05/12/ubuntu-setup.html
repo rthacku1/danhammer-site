@@ -1,0 +1,115 @@
+<p>I use OSX to consume content and Linux to create content. Or, rather, my wife screws up my Netflix preferences on OSX and I spend too much time fucking with syntax highlighting on Ubuntu. I recently bought a new Macbook Pro, and I&#8217;ve documented the steps to set up Ubuntu on a virtual machine. I&#8217;ll save the machine image so that I don&#8217;t actually have to go through these steps again; but it may be useful as a script, of sorts:</p>
+
+<h3 id='vm_fusion_and_ubuntu'>VM Fusion and Ubuntu</h3>
+
+<p>Download Ubuntu 12.04 from the <a href='http://www.ubuntu.com/'>Ubuntu website</a> and follow <a href='http://www.macinstruct.com/node/394'>these instructions</a> to install the platform on OSX using <a href='http://goo.gl/rC43X'>VMware Fusion</a>. You can use it immediately with the <em>Electronic Software Download</em>. If you have retina display, then you&#8217;ll have to turn off the option for Accelerate 3D Graphics found in <strong>Virtual Machine &gt; Settings &gt; Display</strong>. Don&#8217;t enable the option to use the full resolution for retina display in that menu. Instead, set the screen resolution on the OSX side: <strong>System Preferences &gt; Display</strong>.</p>
+
+<h3 id='folder_sharing'>Folder sharing</h3>
+
+<p>I keep everything on Dropbox, including code and configurations. I don&#8217;t want to duplicate storage on my computer, so I share the OSX-side <code>Dropbox</code> folder with the VM. Go to <strong>Virtual Machine &gt; Settings &gt; Sharing</strong> and add the <code>Dropbox</code> folder. The shared folder will show up on the virtual machine in the <code>/mnt/hgfs/</code> directory. I like to have it up-front, in my home folder, so I symlinked it from within the home directory:</p>
+<div>
+  <pre><code class='bash'>sudo ln -s /mnt/hgfs/Dropbox Dropbox</code></pre>
+</div>
+<p>Depending on what version of Ubuntu and VMware you download, it may not be so easy to share folders across platforms. It&#8217;s worth struggling through, however, so that you don&#8217;t waste valuable disk space with duplicated files (and risk strange overwrites).</p>
+
+<p>I also removed a bunch of the default folders:</p>
+<div>
+  <pre><code class='bash'>rm -rf Documents/ Music/ Pictures/ Public/ Templates/ Videos/ examples.desktop</code></pre>
+</div>
+<h3 id='configuration_files'>Configuration files</h3>
+
+<p>I keep all of my configuration and credential files within <code>Dropbox/settings</code>. For example, I keep a global bash profile, unhidden, in the <code>settings</code> directory, which I symlink into my home directory on the VM:</p>
+<div>
+  <pre><code class='bash'>sudo ln -s Dropbox/settings/ssh/ .ssh
+sudo ln -s Dropbox/settings/starcluster/ .starcluster
+sudo ln -s Dropbox/settings/emacs.d/ .emacs.d
+sudo ln -s Dropbox/settings/s3cfg .s3cfg
+sudo ln -s Dropbox/settings/bashrc .bashrc</code></pre>
+</div>
+<p>You may have to make minor adjustments to this step. You may, for example, have to remove the default <code>.bashrc</code> file before symlinking your custom bash script. I forked my Emacs configuration from <a href='https://github.com/eschulte/emacs24-starter-kit'>here</a>. Within <code>.ssh/</code>, I keep my AWS keypairs and Google Earth Engine credentials, like <code>.ssh/ee-privatekey.p12</code>. This way, if I lose my computer, I&#8217;ll have all the customizations backed up on Dropbox.</p>
+
+<h3 id='install_yakuake_and_emacs_24'>Install Yakuake and Emacs 24</h3>
+
+<p>I like Yakuake to work at the command line. It looks great and it&#8217;s easy to use. Install it and then configure the layout, removing <em>all</em> animation (for the love):</p>
+<div>
+  <pre><code class='bash'>sudo apt-get install yakuake
+yakuake</code></pre>
+</div>
+<p>Then install Emacs, along with some modes and programs that you&#8217;ll need for statistics work:</p>
+<div>
+  <pre><code class='bash'>sudo add-apt-repository ppa:cassou/emacs
+sudo apt-get update
+sudo apt-get install emacs24 emacs24-el emacs24-common-non-dfsg
+sudo apt-get install r-base-core ess clojure git s3cmd</code></pre>
+</div>
+<p>The result will look like this:</p>
+
+<p><img alt='' src='/images/desktop.png' /></p>
+
+<h3 id='install_java_and_leiningen'>Install Java and Leiningen</h3>
+
+<p>Install the JVM for Clojure, maybe multiple versions depending on the projects you require:</p>
+<div>
+  <pre><code class='bash'>sudo apt-get install openjdk-7-jre openjdk-6-jre</code></pre>
+</div>
+<p>Then <a href='https://github.com/technomancy/leiningen'>Leiningen</a> for easy use of Clojure.</p>
+<div>
+  <pre><code class='bash'>cd /tmp
+sudo wget https://raw.github.com/technomancy/leiningen/preview/bin/lein
+sudo mv lein /usr/bin/lein
+sudo chmod 755 /usr/bin/lein
+lein -v</code></pre>
+</div>
+<p>Also, I like working with the <code>nrepl</code> package for Emacs, so hit <code>M-x
+package-list-packages</code> in Emacs and make sure it&#8217;s installed. You can enter a REPL, then, by just hitting <code>M-x nrepl-jack-in</code> from within a Clojure buffer.</p>
+
+<h3 id='install_elasticmapreduce'>Install elastic-mapreduce</h3>
+
+<p>I use <a href='http://aws.amazon.com/developertools/2264'>elastic-mapreduce</a> for creating, describing and terminating Job Flows using Amazon Elastic MapReduce. Follow <a href='http://docs.aws.amazon.com/ElasticMapReduce/latest/DeveloperGuide/emr-cli-install.html'>these instructions</a>. If you already have your credentials.json file, then it&#8217;s pretty simple. First grab Ruby and wget:</p>
+<div>
+  <pre><code class='bash'>sudo apt-get install ruby-full wget</code></pre>
+</div>
+<p>Then get the command line interface:</p>
+<div>
+  <pre><code class='bash'>mkdir elastic-mapreduce-cli
+wget http://elasticmapreduce.s3.amazonaws.com/elastic-mapreduce-ruby.zip
+unzip elastic-mapreduce-ruby.zip -d elastic-mapreduce-cli</code></pre>
+</div>
+<p>Put your <code>credentials.json</code> file in the <code>elastic-mapreduce-cli</code> directory. And ensure that the following is in your <code>.bashrc</code> file.</p>
+<div>
+  <pre><code class='bash'>export PATH=$PATH:~/elastic-mapreduce-cli/elastic-mapreduce-ruby</code></pre>
+</div>
+<h3 id='install_starcluster'>Install StarCluster</h3>
+
+<p><a href='http://star.mit.edu/cluster/'>StarCluster</a> is an open source project to build, configure, and manage clusters of virtual machines on Amazon’s EC2 cloud. We use it to launch simple, accessible jobs in Python, R, or Stata if Hadoop seems excessive.</p>
+<div>
+  <pre><code class='bash'>sudo apt-get install python-setuptools
+sudo easy_install StarCluster</code></pre>
+</div>
+<p>The configuration files are located in <code>~/.starcluster</code>, but really reside on Dropbox, as described above.</p>
+
+<h3 id='configure_git'>Configure git</h3>
+
+<p>For coloring and other handy stuff:</p>
+<div>
+  <pre><code class='bash'>git config --global color.branch auto
+git config --global color.diff auto
+git config --global color.interactive auto
+git config --global color.status auto</code></pre>
+</div>
+<h3 id='install_jekyll'>Install Jekyll</h3>
+
+<p>In a sort of meta, final step, you should install Jekyll &#8211; which is what I used to generate this site.</p>
+<div>
+  <pre><code class='bash'>git clone git://github.com/rubygems/rubygems.git
+cd rubygems
+ruby setup.rb
+sudo gem1.8 install jekyll
+sudo gem1.8 install rdiscount
+sudo easy_install Pygments
+sudo apt-get install markdown</code></pre>
+</div>
+<p>Oh and maybe MongoDB:</p>
+<div>
+  <pre><code class='bash'>sudo apt-get install mongodb</code></pre>
+</div>

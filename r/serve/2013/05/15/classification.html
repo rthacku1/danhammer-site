@@ -1,0 +1,18 @@
+<p>I wrote a section on spatial analysis for the <a href='https://github.com/danhammer/ARE212'>econometrics course</a> at Berkeley. I used the features of farmer&#8217;s markets as an example. The <a href='https://explore.data.gov/Agriculture/Farmers-Markets-Geographic-Data/wfna-38ey?'>data set from data.gov</a> has information on the products sold at 7,683 markets in the United States. The question was whether it is possible to determine the state of the farmer&#8217;s markets, based purely on the features of the farmer&#8217;s market. That is, does state policy impact the characteristics of farmer&#8217;s markets? I had intended to make this a section on discontinuity analysis through space; but instead, I found an anomaly in the data rather than a discontinuity in economic decision making.</p>
+
+<p>Consider the farmer&#8217;s markets in four states with an easy border: New Mexico, Utah, Arizona, and Colorado. The features are binary indicators of whether the market sells yogurt or honey or any of the 34 representative characteristics. Based purely on hierarchical clustering of the binary features of the markets in the four states, we can categorize the markets. Given that the features are <em>all</em> indicator variables, I used the binary metric in R:</p>
+<div>
+  <pre><code class='r'>hclust.res &lt;- hclust(dist(X, method = &quot;binary&quot;))
+cl &lt;- cutree(hclust.res, k = 4)</code></pre>
+</div>
+<p>The result is an indicator variable, one of four, for each market. If we plot the markets, colored by cluster, then we can see that there is something that distinguishes the markets in New Mexico:</p>
+
+<p><img alt='' src='/images/zoom.png' /></p>
+
+<p>To shoehorn this analysis into a regression discontinuity framework, I calculated the distance to the border for each market; and distances for markets within New Mexico are scaled by -1.</p>
+
+<p><img alt='' src='/images/disc.png' /></p>
+
+<p>It is clear that there is a difference in the features of markets within and outside of New Mexico. At this point I said, <em>sweet</em>. This is an interesting result for section. However, this indicates the existence of a difference, but does not reveal what the difference actually is. I plotted the markets in CartoDB and started to browse the data. It turns out that, according the the data.gov data, most farmer&#8217;s markets in New Mexico don&#8217;t sell anything but accept WIC (supplemental nutrition credit for women, infants, and children). This probably does not reflect truth, but instead a gap in the data. Exploration of the data on CartoDB has yielded insight, even if it&#8217;s not publishable.</p>
+<pre class='markdown-html-error' style='border: solid 3px red; background-color: pink'>REXML could not parse this XML/HTML: 
+&lt;script id=&apos;cartodb-1368508512960&apos; src=&apos;http://danhammer.cartodb.com/tables/farmers_mkts/embed_map.js?title=false&amp;description=false&amp;search=false&amp;shareable=false&amp;cartodb_logo=true&amp;scrollwheel=true&amp;sql=&amp;zoom=3&amp;center_lat=37.73806173328396&amp;center_lon=-95.33573716878891&amp;height=400&amp;id=cartodb-1368508512960&apos;&gt;&lt;/script&gt;</pre>
