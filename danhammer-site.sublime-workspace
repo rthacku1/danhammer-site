@@ -1,0 +1,382 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"obje",
+				"object"
+			],
+			[
+				"percentage",
+				"percentage_change"
+			],
+			[
+				"get",
+				"getInfo"
+			],
+			[
+				"ee",
+				"eesetup	module"
+			],
+			[
+				"P",
+				"PYTHONPATH"
+			],
+			[
+				"sample",
+				"sample_img_b	statement"
+			],
+			[
+				"assertGre",
+				"assertGreaterEqual	function"
+			],
+			[
+				"mat",
+				"matplotlib	module"
+			],
+			[
+				"perce",
+				"percentage_change	statement"
+			],
+			[
+				"uuid",
+				"uuid3	function"
+			],
+			[
+				"_ma",
+				"_magnitude_change	function"
+			],
+			[
+				"as",
+				"astype"
+			],
+			[
+				"lin",
+				"linalg"
+			],
+			[
+				"delta",
+				"delta_red	statement"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"selected_items":
+		[
+			[
+				"rep",
+				"SublimeREPL: Python"
+			],
+			[
+				"repl",
+				"SublimeREPL: Python"
+			],
+			[
+				"p",
+				"Preferences: Settings - User"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"user",
+				"Preferences: Settings - User"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"repl py",
+				"SublimeREPL: Python"
+			]
+		],
+		"width": 449.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '7183a2d3e96f11eeadd761d777e62404' + 'e330c659d4bb41d3bdf022e94cab3cd0'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Users/danhammer/Dropbox/github/danhammer/danhammer-site"
+	],
+	"file_history":
+	[
+		"/Users/danhammer/Dropbox/github/danhammer/danhammer-site/r/_posts/2014-05-02-datalab-blog.markdown",
+		"/Users/danhammer/Dropbox/github/danhammer/danhammer-site/r/_posts/2014-08-30-intro-presentation.markdown",
+		"/Users/danhammer/Dropbox/github/danhammer/danhammer-site/r/_site/serve/2014/05/02/datalab-blog.html",
+		"/Users/danhammer/Dropbox/github/danhammer/danhammer-site/_site/r/serve/2014/05/02/datalab-blog.html",
+		"/Users/danhammer/Dropbox/github/danhammer/danhammer-site/r/serve/2014/05/02/datalab-blog.html",
+		"/Users/danhammer/Dropbox/github/danhammer/danhammer-site/r/_site/2014/05/02/datalab-blog.html",
+		"/Users/danhammer/Dropbox/github/danhammer/danhammer-site/_site/r/2014/05/02/datalab-blog.html",
+		"/Users/danhammer/Dropbox/github/danhammer/danhammer-site/style.css",
+		"/Users/danhammer/Dropbox/github/danhammer/danhammer-site/r/serve/2013/05/12/ubuntu-setup.html",
+		"/Users/danhammer/Dropbox/github/danhammer/danhammer-site/r/projects.html",
+		"/Users/danhammer/Dropbox/github/danhammer/danhammer-site/r/_posts/2014-08-22-data-science.markdown",
+		"/Users/danhammer/Dropbox/github/danhammer/danhammer-site/_site/r/2014/08/22/data-science.html",
+		"/Users/danhammer/Dropbox/github/danhammer/danhammer-site/_site/danhammer-site.sublime-project",
+		"/Users/danhammer/Dropbox/github/danhammer/danhammer-site/danhammer-site.sublime-project",
+		"/Users/danhammer/Dropbox/github/danhammer/danhammer-site/_site/r/projects.html",
+		"/Users/danhammer/Dropbox/github/danhammer/danhammer-site/r/_site/projects.html",
+		"/Users/danhammer/Dropbox/github/danhammer/danhammer-site/r/serve/projects.html",
+		"/Users/danhammer/Dropbox/github/danhammer/danhammer-site/_site/r/serve/projects.html",
+		"/Users/danhammer/Dropbox/github/danhammer/danhammer-site/r/_posts/2013-05-15-classification.markdown",
+		"/Users/danhammer/Dropbox/github/danhammer/danhammer-site/r/_posts/2013-05-13-farmers-markets.markdown",
+		"/Users/danhammer/Dropbox/github/danhammer/danhammer-site/r/_posts/2013-05-12-ubuntu-setup.markdown",
+		"/Users/danhammer/Dropbox/github/danhammer/danhammer-site/r/_site/serve/posts.html",
+		"/Users/danhammer/Dropbox/github/danhammer/danhammer-site/_site/r/serve/posts.html",
+		"/Users/danhammer/Dropbox/github/danhammer/danhammer-site/r/serve/posts.html",
+		"/Users/danhammer/Dropbox/github/danhammer/danhammer-site/r/_site/posts.html",
+		"/Users/danhammer/Dropbox/github/danhammer/danhammer-site/_site/r/posts.html",
+		"/Users/danhammer/Dropbox/github/danhammer/danhammer-site/r/posts.html",
+		"/Users/danhammer/Dropbox/github/danhammer/danhammer-site/_layouts/post.html",
+		"/Users/danhammer/Dropbox/github/SpaceKnow/horik-core/spaceknow/horik/core/objectifier.py",
+		"/Users/danhammer/Dropbox/github/SpaceKnow/horik-core/spaceknow/horik/core/polarchange.py",
+		"/Users/danhammer/Dropbox/github/SpaceKnow/horik-core/README.md",
+		"/Users/danhammer/Dropbox/github/SpaceKnow/horik-core/horik-core.sublime-project",
+		"/Users/danhammer/Dropbox/github/SpaceKnow/horik-core/spaceknow/horik/core/konungr.py",
+		"/Users/danhammer/Dropbox/github/SpaceKnow/horik-core/test/spaceknow/horik/core/konungr_test.py",
+		"/Users/danhammer/Dropbox/github/wri/gfw-api/gfw/truth.py",
+		"/Users/danhammer/Dropbox/github/SpaceKnow/horik-core/spaceknow/horik/tools/reference_counts.txt",
+		"/Users/danhammer/Dropbox/github/SpaceKnow/horik-core/.gitignore",
+		"/Users/danhammer/Dropbox/github/wri/gfw-api/admin.py",
+		"/Users/danhammer/Library/Application Support/Sublime Text 3/Packages/User/SublimeREPL.sublime-settings",
+		"/Users/danhammer/Dropbox/github/SpaceKnow/horik-core/spaceknow/horik/tools/utils.py",
+		"/Users/danhammer/Dropbox/github/SpaceKnow/horik-core/spaceknow/horik/tools/image.py",
+		"/Users/danhammer/Dropbox/github/danhammer/danhammer-site/r/about.html",
+		"/Users/danhammer/Dropbox/github/SpaceKnow/horik-core/test/spaceknow/horik/core/polarchange_test.py",
+		"/Users/danhammer/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/Users/danhammer/Dropbox/github/SpaceKnow/horik-core/setup.sh",
+		"/Users/danhammer/Dropbox/github/SpaceKnow/horik-core/spaceknow/horik/tools/__init__.py",
+		"/Users/danhammer/Dropbox/github/danhammer/danhammer-site/_layouts/default.html",
+		"/Users/danhammer/Library/Application Support/Sublime Text 3/Packages/SublimeREPL/SublimeREPL.sublime-settings",
+		"/Users/danhammer/Dropbox/github/SpaceKnow/horik-core/more_requirements.txt",
+		"/Users/danhammer/Dropbox/github/danhammer/danhammer-site/r/index.html",
+		"/Users/danhammer/Dropbox/github/danhammer/currency-sim/src/clj/hylo/core.clj",
+		"/Users/danhammer/Desktop/untitled",
+		"/Users/danhammer/Library/Application Support/Sublime Text 3/Packages/Pylinter/Pylinter.sublime-settings"
+	],
+	"find":
+	{
+		"height": 23.0
+	},
+	"find_in_files":
+	{
+		"height": 93.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"date0"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		},
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			],
+			[
+				1,
+				0,
+				2,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			0.5,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 100.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"project": "danhammer-site.sublime-project",
+	"replace":
+	{
+		"height": 42.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"blo",
+				"r/_posts/2014-05-02-datalab-blog.markdown"
+			],
+			[
+				"pro",
+				"r/projects.html"
+			],
+			[
+				"data-sc",
+				"r/_posts/2014-08-22-data-science.markdown"
+			],
+			[
+				"post",
+				"r/_posts/2014-08-22-data-science.markdown"
+			],
+			[
+				"proj",
+				"r/projects.html"
+			],
+			[
+				"data",
+				"r/_posts/2014-08-22-data-science.markdown"
+			],
+			[
+				"2014",
+				"r/_posts/2014-05-02-datalab-blog.markdown"
+			],
+			[
+				"datas",
+				"r/_posts/2014-08-22-data-science.markdown"
+			],
+			[
+				"pol",
+				"spaceknow/horik/core/polarchange.py"
+			],
+			[
+				"obj",
+				"spaceknow/horik/core/objectifier.py"
+			],
+			[
+				"read",
+				"README.md"
+			],
+			[
+				"test",
+				"test/spaceknow/horik/core/konungr_test.py"
+			],
+			[
+				"kon",
+				"spaceknow/horik/core/konungr.py"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+			[
+				"",
+				"~/Dropbox/github/SpaceKnow/horik-core/horik-core.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 1,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": false,
+	"side_bar_width": 150.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
