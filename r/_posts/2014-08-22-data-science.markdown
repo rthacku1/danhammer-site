@@ -8,12 +8,12 @@ title: "Data Science at the White House"
   </div>
 </a>
 
-I will have the opportunity to learn about the way data science is used at
-both the White House and NASA as a Presidential Innovation Fellow.  I will
-report here and on twitter
-[@econohammer](https://twitter.com/econohammer). Sporadically.  No,
-actually continuously.  I am going to blog, like, all the time.  This I
-promise myself.  All views are my own.
+I will have the [opportunity](http://www.whitehouse.gov/blog) to learn about
+the way data science is used at both the White House and NASA as a
+Presidential Innovation Fellow.  I will report here and on twitter
+[@econohammer](https://twitter.com/econohammer). Sporadically.  No, actually
+continuously.  I am going to blog, like, all the time.  This I promise myself.
+All views are my own.
 
 With that, here are the online resources I found in advance of the
 appointment:
