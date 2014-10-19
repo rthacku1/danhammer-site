@@ -4,6 +4,54 @@
 		"selected_items":
 		[
 			[
+				"grab",
+				"grab_image	function"
+			],
+			[
+				"phone",
+				"phone_str	param"
+			],
+			[
+				"phon",
+				"phone_str	param"
+			],
+			[
+				"forma",
+				"format_name	function"
+			],
+			[
+				"profi",
+				"profile_images"
+			],
+			[
+				"is",
+				"isinstance	function"
+			],
+			[
+				"spec",
+				"specialty	statement"
+			],
+			[
+				"json",
+				"json_results"
+			],
+			[
+				"filter",
+				"filter_expertise	function"
+			],
+			[
+				"jso",
+				"json_results	statement"
+			],
+			[
+				"json_res",
+				"json_results_filtered"
+			],
+			[
+				"super",
+				"superhero_role	statement"
+			],
+			[
 				"obje",
 				"object"
 			],
@@ -136,17 +184,28 @@
 	],
 	"file_history":
 	[
+		"/Users/danhammer/Dropbox/github/danhammer/danhammer-site/style.css",
+		"/Users/danhammer/Dropbox/github/danhammer/danhammer-site/r/_posts/2014-08-22-data-science.markdown",
+		"/Users/danhammer/Dropbox/pif/hack/intro.md",
+		"/Users/danhammer/Dropbox/pif/hack/vcarder.py",
+		"/Users/danhammer/Dropbox/pif/hack/imager.py",
+		"/Users/danhammer/Downloads/loadpifs.py",
+		"/Users/danhammer/Downloads/image_scraper.py",
+		"/Users/danhammer/Downloads/vcarder.py",
+		"/Users/danhammer/Downloads/api.py",
+		"/Users/danhammer/Downloads/imager.py",
+		"/Users/danhammer/Dropbox/github/danhammer/danhammer-site/r/about.html",
+		"/Users/danhammer/Dropbox/github/danhammer/danhammer-site/r/index.html",
+		"/Users/danhammer/Dropbox/github/danhammer/danhammer-site/atom.xml",
 		"/Users/danhammer/Dropbox/github/danhammer/danhammer-site/r/_posts/2014-05-02-datalab-blog.markdown",
 		"/Users/danhammer/Dropbox/github/danhammer/danhammer-site/r/_posts/2014-08-30-intro-presentation.markdown",
+		"/Users/danhammer/Dropbox/github/danhammer/danhammer-site/r/projects.html",
 		"/Users/danhammer/Dropbox/github/danhammer/danhammer-site/r/_site/serve/2014/05/02/datalab-blog.html",
 		"/Users/danhammer/Dropbox/github/danhammer/danhammer-site/_site/r/serve/2014/05/02/datalab-blog.html",
 		"/Users/danhammer/Dropbox/github/danhammer/danhammer-site/r/serve/2014/05/02/datalab-blog.html",
 		"/Users/danhammer/Dropbox/github/danhammer/danhammer-site/r/_site/2014/05/02/datalab-blog.html",
 		"/Users/danhammer/Dropbox/github/danhammer/danhammer-site/_site/r/2014/05/02/datalab-blog.html",
-		"/Users/danhammer/Dropbox/github/danhammer/danhammer-site/style.css",
 		"/Users/danhammer/Dropbox/github/danhammer/danhammer-site/r/serve/2013/05/12/ubuntu-setup.html",
-		"/Users/danhammer/Dropbox/github/danhammer/danhammer-site/r/projects.html",
-		"/Users/danhammer/Dropbox/github/danhammer/danhammer-site/r/_posts/2014-08-22-data-science.markdown",
 		"/Users/danhammer/Dropbox/github/danhammer/danhammer-site/_site/r/2014/08/22/data-science.html",
 		"/Users/danhammer/Dropbox/github/danhammer/danhammer-site/_site/danhammer-site.sublime-project",
 		"/Users/danhammer/Dropbox/github/danhammer/danhammer-site/danhammer-site.sublime-project",
@@ -177,7 +236,6 @@
 		"/Users/danhammer/Library/Application Support/Sublime Text 3/Packages/User/SublimeREPL.sublime-settings",
 		"/Users/danhammer/Dropbox/github/SpaceKnow/horik-core/spaceknow/horik/tools/utils.py",
 		"/Users/danhammer/Dropbox/github/SpaceKnow/horik-core/spaceknow/horik/tools/image.py",
-		"/Users/danhammer/Dropbox/github/danhammer/danhammer-site/r/about.html",
 		"/Users/danhammer/Dropbox/github/SpaceKnow/horik-core/test/spaceknow/horik/core/polarchange_test.py",
 		"/Users/danhammer/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings",
 		"/Users/danhammer/Dropbox/github/SpaceKnow/horik-core/setup.sh",
@@ -185,14 +243,13 @@
 		"/Users/danhammer/Dropbox/github/danhammer/danhammer-site/_layouts/default.html",
 		"/Users/danhammer/Library/Application Support/Sublime Text 3/Packages/SublimeREPL/SublimeREPL.sublime-settings",
 		"/Users/danhammer/Dropbox/github/SpaceKnow/horik-core/more_requirements.txt",
-		"/Users/danhammer/Dropbox/github/danhammer/danhammer-site/r/index.html",
 		"/Users/danhammer/Dropbox/github/danhammer/currency-sim/src/clj/hylo/core.clj",
 		"/Users/danhammer/Desktop/untitled",
 		"/Users/danhammer/Library/Application Support/Sublime Text 3/Packages/Pylinter/Pylinter.sublime-settings"
 	],
 	"find":
 	{
-		"height": 23.0
+		"height": 35.0
 	},
 	"find_in_files":
 	{
@@ -292,6 +349,14 @@
 		"selected_items":
 		[
 			[
+				"",
+				"style.css"
+			],
+			[
+				"ind",
+				"r/index.html"
+			],
+			[
 				"blo",
 				"r/_posts/2014-05-02-datalab-blog.markdown"
 			],
@@ -353,7 +418,7 @@
 		[
 			[
 				"",
-				"~/Dropbox/github/SpaceKnow/horik-core/horik-core.sublime-project"
+				"~/Dropbox/github/danhammer/danhammer-site/danhammer-site.sublime-project"
 			]
 		],
 		"width": 380.0
@@ -366,7 +431,7 @@
 		],
 		"width": 0.0
 	},
-	"selected_group": 1,
+	"selected_group": 0,
 	"settings":
 	{
 	},
