@@ -180,10 +180,13 @@
 	},
 	"expanded_folders":
 	[
-		"/Users/danhammer/Dropbox/github/danhammer/danhammer-site"
+		"/Users/danhammer/Dropbox/github/danhammer/danhammer-site",
+		"/Users/danhammer/Dropbox/github/danhammer/danhammer-site/r"
 	],
 	"file_history":
 	[
+		"/Users/danhammer/Dropbox/github/danhammer/danhammer-site/r/about.html",
+		"/Users/danhammer/Dropbox/github/danhammer/danhammer-site/r/index.html",
 		"/Users/danhammer/Dropbox/github/danhammer/danhammer-site/style.css",
 		"/Users/danhammer/Dropbox/github/danhammer/danhammer-site/r/_posts/2014-08-22-data-science.markdown",
 		"/Users/danhammer/Dropbox/pif/hack/intro.md",
@@ -194,8 +197,6 @@
 		"/Users/danhammer/Downloads/vcarder.py",
 		"/Users/danhammer/Downloads/api.py",
 		"/Users/danhammer/Downloads/imager.py",
-		"/Users/danhammer/Dropbox/github/danhammer/danhammer-site/r/about.html",
-		"/Users/danhammer/Dropbox/github/danhammer/danhammer-site/r/index.html",
 		"/Users/danhammer/Dropbox/github/danhammer/danhammer-site/atom.xml",
 		"/Users/danhammer/Dropbox/github/danhammer/danhammer-site/r/_posts/2014-05-02-datalab-blog.markdown",
 		"/Users/danhammer/Dropbox/github/danhammer/danhammer-site/r/_posts/2014-08-30-intro-presentation.markdown",
@@ -438,7 +439,7 @@
 	"show_minimap": true,
 	"show_open_files": false,
 	"show_tabs": true,
-	"side_bar_visible": false,
+	"side_bar_visible": true,
 	"side_bar_width": 150.0,
 	"status_bar_visible": true,
 	"template_settings":
