@@ -2,11 +2,12 @@
 layout: post
 title: "Data Science at the White House"
 ---
-<a href="http://www.whitehouse.gov/innovationfellows">
-  <div align="center">
-    <img src="/images/wh.png" alt="color photo ftl" />
-  </div>
-</a>
+
+<div align="center">
+    <a href="http://www.whitehouse.gov/innovationfellows">
+        <img src="/images/wh.png" alt="color photo ftl" />
+    </a>
+</div>
 
 I will have the [opportunity](http://www.whitehouse.gov/blog) to learn about
 the way data science is used at both the White House and NASA as a

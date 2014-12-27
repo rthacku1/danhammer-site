@@ -1,8 +1,5 @@
 destination: ./_site
 lsi:         false
-server_port: 4000
-pygments:    true
-markdown:    rdiscount
+port: 4000
+highlighter:   pygments
 permalink:   date
-rdiscount:
-  extensions: [smart]
