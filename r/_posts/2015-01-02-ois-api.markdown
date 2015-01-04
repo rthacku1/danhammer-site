@@ -3,9 +3,9 @@ layout: post
 title: "An API for Officer Involved Shootings"
 ---
 
-The anger after the officer involved shooting (OIS) incidents in Ferguson and many other cities in the United States is well-justified.  A hard and personal question is **why** these shootings occur?  A much easier (or at least a more manageable) question is, **how many** officer involved shootings occur in the US?  Is the recent attention due to an increase in shootings, or just more public attention?  I couldn't find the answer to this question.  This seems wrong.
+The anger after the officer involved shooting (OIS) incidents in Ferguson and many other cities in the United States is well-justified.  A hard and personal question is **why** these shootings occur.  A much easier (or at least a more manageable) question is **how many** officer involved shootings occur in the US. Is the recent attention due to an increase in shootings, or just more public awareness?  I couldn't find basic statistics on police shootings.  This seems wrong.
 
-I was only able to find official statistics from the [Dallas](http://www.dallaspolice.net/ois/ois.html) and [Philadelphia](http://www.phillypolice.com/ois) police departments.  Here is a visualization of of the Dallas data.  This department should be commended for their efforts toward public accountability, even though the statistics are incredibly troubling?  Why are there so many officer involved shootings?  **Zoom and click on the points for details on the shooting.**
+I was only able to find official statistics from the [Dallas](http://www.dallaspolice.net/ois/ois.html) and [Philadelphia](http://www.phillypolice.com/ois) police departments.  Here is a visualization of of the Dallas data.  This department should be commended for their efforts toward public accountability, even though the statistics are troubling.  Why are there so many officer involved shootings?  **Zoom and click on the points for details on the shooting.**
 
 <iframe width='100%' height='400' frameborder='0' src='http://nasahammer.cartodb.com/viz/614b71be-9444-11e4-9403-0e018d66dc29/embed_map'></iframe>
 
