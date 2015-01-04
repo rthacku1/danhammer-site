@@ -15,7 +15,7 @@ The [CartoDB](http://www.cartodb.com) map comes with a built-in API, based on SQ
 http://nasahammer.cartodb.com/api/v2/sql?q=SELECT * FROM public.dallas_shootings
 {% endhighlight %}
 
-This data is being incorporated into a more comprehensive database, which also includes media reports of OIS incidents.  The unofficial reports 
+This data is being incorporated into a more comprehensive database, which also includes media reports of OIS incidents. This service rides on elasticsearch, so the database is searchable and scalable. 
 
 {% highlight bash %}
 http://ois-incidents.appspot.com/content?limit=10&query=airsoft
