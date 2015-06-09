@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Data Science at the White House"
+title: "Data Science at the NASA and the White House"
 ---
 
 <div align="center">
@@ -12,9 +12,7 @@ title: "Data Science at the White House"
 I will have the [opportunity](http://www.whitehouse.gov/blog) to learn about
 the way data science is used at both the White House and NASA as a
 Presidential Innovation Fellow.  I will report here and on twitter
-[@econohammer](https://twitter.com/econohammer). Sporadically.  No, actually
-continuously.  I am going to blog, like, all the time.  This I promise myself.
-All views are my own.
+[@econohammer](https://twitter.com/econohammer). Sporadically.  
 
 With that, here are the online resources I found in advance of the
 appointment:
@@ -32,6 +30,3 @@ appointment:
 - [US Digital Services Playbook](https://playbook.cio.gov/). The USDS best
   practices from the private sector and government that, if followed together,
   will help government build effective digital services.
-  
-Ha! Well, actually there are (justifiable) restrictions about what I can blog
-about.  This makes sense.  I will attempt to blog.  If I can.  More soon.
