@@ -52,4 +52,6 @@ show()
 
 ![](/images/differential-animated.gif)
 
-It is easy to break this result by messing with the solver parameters or the size of the time steps (relative to the total time), demonstrating the fragility of the result for real-world applications.
+It is easy to break this result by messing with the solver parameters or the size of the time steps (relative to the total time), demonstrating the fragility of the result for real-world applications.  If, for example, we increase the step size from 0.5 to 10, we lose most of the dynamics that characterize the system.
+
+![](/images/diff-direct.png)
