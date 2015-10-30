@@ -31,7 +31,7 @@ def BoatFishSystem(state, t):
     return [d_fish, d_boat]
 {% endhighlight %}
 
-Then, we define the state-space and intital conditions, so that we can solve the system of linear equations.  The result is animated below.  (The code for some of the graphical bells and whistles is not posted here.)
+Then, we define the state-space and intital conditions, so that we can solve the system of linear equations.  The result is animated below.  (The code for some of the graphical bells and whistles is omitted for the sake of exposition.)
 
 {% highlight python %}
 t = arange(0, 20, 0.1)
