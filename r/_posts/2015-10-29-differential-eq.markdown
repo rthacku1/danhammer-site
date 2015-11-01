@@ -52,7 +52,7 @@ show()
 
 ![](/images/differential-animated-dual.gif)
 
-The red, dashed lines indicate the isoclines, derived from the first-order conditions of the equation system.  These lines delineate the phase space of the top graph; and the lines intersect at the equilibrium levels of fish and boats.
+The red, dashed lines indicate the nullclines, derived from the first-order conditions of the equation system.  These lines delineate the phase space of the top graph; and the lines intersect at the equilibrium levels of fish and boats.
 
 $$
 \begin{align*}
