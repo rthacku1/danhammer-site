@@ -114,4 +114,4 @@ $$
 \lambda = -\frac{2}{3} \pm i\sqrt{\frac{44}{9}}
 $$
 
-The real part is negative and there is a complex component, such that the system will oscillate around the equilibrium tending inward.  This behavior is reflected in the animation.  I guess we didn't really have to go through all this work; but whatever, it's useful for other problems.
+The real part is negative and there is an imaginary component, such that the system will oscillate around the equilibrium tending inward.  This behavior is reflected in the animation.  I guess we didn't really have to go through all this work; but whatever, it's useful for other problems.
