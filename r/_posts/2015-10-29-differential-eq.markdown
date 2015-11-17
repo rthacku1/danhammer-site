@@ -120,7 +120,7 @@ The real part is negative and there is an imaginary component, such that the sys
 
 ## Schaefer model
 
-[Bjorndal and Conrad (1987)](http://cahnrs-cms.wsu.edu/_layouts/downloadFile.aspx?file=/ses/people/galinato_g/Documents/EconS431/bjorndal%20and%20%20conrad.pdf) modelled the open-access exploitation of North Sea herring between 1963 - 1977.  Their model is just like the one above, except slightly more complicated.  Let fish stock ($$x$$) and fishing effort ($$y$$) be modelled by the following system:
+[Bjorndal and Conrad (1987)](http://cahnrs-cms.wsu.edu/_layouts/downloadFile.aspx?file=/ses/people/galinato_g/Documents/EconS431/bjorndal%20and%20%20conrad.pdf) modelled open-access exploitation of North Sea herring between 1963 - 1977.  Their model is similar to the one above, except slightly more complicated.  Let fish stock ($$x$$) and fishing effort ($$y$$) be modelled by the following system:
 
 $$
 \begin{align*}
@@ -156,7 +156,7 @@ def BoatFishSystem(state, t, time_scale=0.1):
 
 ![](/images/differential-animated-schaefer.gif)
 
-The Jacobian for this system, evaluated at the equilibrium is:
+The Jacobian for this system evaluated at the equilibrium is:
 
 $$
 \left( 
