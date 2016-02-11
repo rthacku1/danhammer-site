@@ -4,6 +4,30 @@
 		"selected_items":
 		[
 			[
+				"mc",
+				"mclapply"
+			],
+			[
+				"uni",
+				"unique"
+			],
+			[
+				"cu",
+				"custid"
+			],
+			[
+				"un",
+				"units"
+			],
+			[
+				"y",
+				"yearmonthid"
+			],
+			[
+				"date",
+				"datestr"
+			],
+			[
 				"pac",
 				"packages"
 			],
@@ -118,10 +142,6 @@
 			[
 				"res",
 				"result"
-			],
-			[
-				"date",
-				"datetime	class"
 			],
 			[
 				"base",
@@ -344,17 +364,49 @@
 	"buffers":
 	[
 	],
-	"build_system": "",
+	"build_system": "Packages/Markdown Preview/Markdown.sublime-build",
 	"build_system_choices":
 	[
+		[
+			[
+				[
+					"Packages/Markdown Preview/Markdown.sublime-build",
+					""
+				],
+				[
+					"Packages/SublimeREPL/sublimerepl_build_system_hack.sublime-build",
+					""
+				]
+			],
+			[
+				"Packages/Markdown Preview/Markdown.sublime-build",
+				""
+			]
+		]
 	],
 	"build_varint": "",
 	"command_palette":
 	{
 		"height": 400.0,
-		"last_filter": "rep",
+		"last_filter": "rep r",
 		"selected_items":
 		[
+			[
+				"rep r",
+				"SublimeREPL: R"
+			],
+			[
+				"markdown",
+				"Markdown Preview: Preview in Browser"
+			],
+			[
+				"mark",
+				"Markdown Preview: Open Markdown Cheat sheet"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
 			[
 				"rep",
 				"SublimeREPL: Python"
@@ -362,10 +414,6 @@
 			[
 				"remove",
 				"Package Control: Remove Package"
-			],
-			[
-				"install",
-				"Package Control: Install Package"
 			],
 			[
 				"ins",
@@ -389,10 +437,6 @@
 			],
 			[
 				"re r",
-				"SublimeREPL: R"
-			],
-			[
-				"rep r",
 				"SublimeREPL: R"
 			],
 			[
@@ -465,6 +509,9 @@
 	],
 	"file_history":
 	[
+		"/Users/danhammer/Dropbox/github/danhammer/applied-metrics/src/r/assignment-1/script.R",
+		"/Users/danhammer/Dropbox/github/danhammer/web-mapping/README.md",
+		"/Users/danhammer/Dropbox/github/danhammer/web-mapping/Lecture1.md",
 		"/Users/danhammer/Dropbox/github/danhammer/enviro-service/utils/water.py",
 		"/Users/danhammer/Dropbox/github/danhammer/danhammer-site/r/index.html",
 		"/Users/danhammer/Dropbox/github/danhammer/empirical-paper/write-up/paper.tex",
@@ -589,10 +636,7 @@
 		"/Users/danhammer/Dropbox/github/SpaceKnow/ninja-service/lib/pyshorteners/shorteners.py",
 		"/Users/danhammer/Desktop/david wheeler",
 		"/Users/danhammer/Dropbox/github/SpaceNinjaHQ/ninja-data/.gitignore",
-		"/Users/danhammer/Desktop/how to start a start-up.",
-		"/Users/danhammer/Dropbox/github/danhammer/enviro-server/water.py",
-		"/Users/danhammer/Dropbox/github/SpaceNinjaHQ/osm-utils/osmutils/splitsaver.py",
-		"/Users/danhammer/Dropbox/github/SpaceKnow/ninja-service/app.yaml"
+		"/Users/danhammer/Desktop/how to start a start-up."
 	],
 	"find":
 	{
@@ -676,6 +720,10 @@
 	{
 		"height": 0.0
 	},
+	"output.markdown":
+	{
+		"height": 110.0
+	},
 	"pinned_build_system": "",
 	"project": "danhammer-site.sublime-project",
 	"replace":
@@ -704,7 +752,7 @@
 		[
 			[
 				"",
-				"~/Dropbox/github/danhammer/danhammer-site/danhammer-site.sublime-project"
+				"~/Dropbox/github/danhammer/enviro-service/enviro-service.sublime-project"
 			]
 		],
 		"width": 380.0
