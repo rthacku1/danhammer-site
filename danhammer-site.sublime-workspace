@@ -4,6 +4,18 @@
 		"selected_items":
 		[
 			[
+				"fac",
+				"factor"
+			],
+			[
+				"p",
+				"pbkrtest"
+			],
+			[
+				"var",
+				"variance"
+			],
+			[
 				"mc",
 				"mclapply"
 			],
@@ -396,6 +408,14 @@
 				"SublimeREPL: R"
 			],
 			[
+				"rep",
+				"SublimeREPL: Python"
+			],
+			[
+				"repl r",
+				"SublimeREPL: R"
+			],
+			[
 				"markdown",
 				"Markdown Preview: Preview in Browser"
 			],
@@ -406,10 +426,6 @@
 			[
 				"install",
 				"Package Control: Install Package"
-			],
-			[
-				"rep",
-				"SublimeREPL: Python"
 			],
 			[
 				"remove",
@@ -430,10 +446,6 @@
 			[
 				"package in",
 				"Package Control: Install Package"
-			],
-			[
-				"repl r",
-				"SublimeREPL: R"
 			],
 			[
 				"re r",
@@ -480,7 +492,7 @@
 				"Preferences: Browse Packages"
 			]
 		],
-		"width": 457.0
+		"width": 454.0
 	},
 	"console":
 	{
@@ -509,6 +521,7 @@
 	],
 	"file_history":
 	[
+		"/Users/danhammer/Dropbox/github/danhammer/danhammer-site/r/about.html",
 		"/Users/danhammer/Dropbox/github/danhammer/applied-metrics/src/r/assignment-1/script.R",
 		"/Users/danhammer/Dropbox/github/danhammer/web-mapping/README.md",
 		"/Users/danhammer/Dropbox/github/danhammer/web-mapping/Lecture1.md",
@@ -547,7 +560,6 @@
 		"/usr/include/tar.h",
 		"/Users/danhammer/Dropbox/jobs.py",
 		"/Users/danhammer/Dropbox/github/danhammer/danhammer-site/r/projects.html",
-		"/Users/danhammer/Dropbox/github/danhammer/danhammer-site/r/about.html",
 		"/Users/danhammer/Dropbox/github/danhammer/danhammer-site/_layouts/default.html",
 		"/Users/danhammer/Dropbox/github/danhammer/danhammer-site/css/style.css",
 		"/Users/danhammer/Downloads/Chapter 18 fish/fish2andhalf.m",
@@ -683,6 +695,11 @@
 			"sheets":
 			[
 			]
+		},
+		{
+			"sheets":
+			[
+			]
 		}
 	],
 	"incremental_find":
@@ -702,11 +719,18 @@
 				0,
 				1,
 				1
+			],
+			[
+				1,
+				0,
+				2,
+				1
 			]
 		],
 		"cols":
 		[
 			0.0,
+			0.442892277624,
 			1.0
 		],
 		"rows":
